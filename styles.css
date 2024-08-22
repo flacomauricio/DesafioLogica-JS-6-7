@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+  /*  background-color: #c9f5bb; */
+    background-color: #9FDfBC; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+   /* background-color: #c2e7a4; */
+    background-color: #9fdfa9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #666;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+   /* background-color: #28a745; */
+   background-color: #61c870; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.25rem;
+}
+
+
+button:hover {
+      background-color: #218838;  
+
+ /*   background-color: #1246f3; */
+            color: #fff;
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.8);
+            transform: translateY(-2px);
+}
+
+#listaDeCompras {
+    margin-top: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}

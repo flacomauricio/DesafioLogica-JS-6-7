@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desafio Lógica JS 5/7</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+
+        <label for="alimento">Agregar un alimento:</label>
+        <input type="text" id="alimento" placeholder="Escribe un alimento">
+
+        <label for="categoria">Selecciona una categoría:</label>
+        <select id="categoria">
+            <option value="Frutas">Frutas</option>
+            <option value="Lácteos">Lácteos</option>
+            <option value="Congelados">Congelados</option>
+            <option value="Dulces">Dulces</option>
+            <option value="Otros">Otros</option>
+        </select>
+
+        <button onclick="agregarAlimento()">Agregar a la lista</button> 
+        <button onclick="mostrarLista()">Mostrar lista de compras</button>
+        <button onclick="eliminarAlimento()">Eliminar Alimento</button>
+
+        <div id="listaDeCompras"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
